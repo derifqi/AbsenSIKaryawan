@@ -19,6 +19,9 @@
     <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
+    <!-- dummy css -->
+     <link rel="stylesheet" href="css/dummy.css">
+
     <!-- Bootstrap CSS-->
     <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
@@ -104,10 +107,10 @@
         <!-- END HEADER MOBILE-->
 
         <!-- MENU SIDEBAR-->
-        <aside class="menu-sidebar d-none d-lg-block">
+        <aside class="menu-sidebar d-none d-lg-block"  style="background-color: #1e1e1e;">
             <div class="logo">
                 <a href="#">
-                   <h2>Admin</h2>
+                   <h2>Branzel Group</h2>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -120,7 +123,7 @@
                         </li>
                         <li>
                             <a href="datakaryawan.php">
-                                <i class="fas fa-chart-bar"></i>Data Karyawan</a>
+                                <i class="fas fa-chart-bar" ></i>Data Karyawan</a>
                         </li>
                         <li>
                             <a href="datauser.php">
@@ -204,11 +207,11 @@
         <!-- PAGE CONTAINER-->
         <div class="page-container">
             <!-- HEADER DESKTOP-->
-            <header class="header-desktop">
+            <header style="background-color: #808080;" class="header-desktop ">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap">
-                            <h1>SIKaryawan Beta 1.0</h1>
+                            <marquee><h1 class="headerTitle">ABSENSI KARYAWAN BRANZEL GROUP</h1></marquee>
                           
                         </div>
                     </div>
@@ -221,8 +224,9 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <center><img src="img/logokaryawan.png" width="500" class="img img-responsive" height="500"></center><br>
-                            <strong class="col-md-12" style="margin-top: 5rem;">Selamat datang admin SIKaryawan</strong>
+                            <center>
+                             <img src="img/Branzel Group.png" class="img-fluid"></center><br>
+                            <strong class="col-md-12" style="margin-top: 5rem;">Selamat datang Admin Ganteng</strong>
 
                                     </div>
                                 </div>
@@ -231,7 +235,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                    <p>© 2025 Branzel Group - Kreativitas Tanpa Batas! <a href="https://branzelcreative.com">Didesain oleh Branzel Group</a>.</p>
                                 </div>
                             </div>
                         </div>
